@@ -19,5 +19,5 @@ auto func = [](auto input) { return input * input; };
 
 Compile and try with:
 ```
-clang++ -std=c++1y -pedantic -Wall -stdlib=libc++ generalized_lambda.cpp -o test; ./test
+clang++ -std=c++14 -pedantic -Wall -stdlib=libc++ generalized_lambda.cpp -o test; ./test
 ```
